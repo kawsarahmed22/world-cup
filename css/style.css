@@ -18,7 +18,7 @@ a {
 
 .container {
     max-width: 1200px;
-    margin: 0px auto 50px;
+    margin: 0px auto;
 }
 
 .primary-button {
@@ -34,9 +34,10 @@ a {
 
 .header {
     background-color: #161616;
-    padding: 111px;
+    padding: 50px;
     color: #ffffff;
     display: flex;
+    margin-bottom: 50px;
 }
 
 .header-left h1 {
@@ -75,6 +76,7 @@ a {
     margin-bottom: 10px;
     border-radius: 5px;
     padding: 20px;
+    display: block;
 }
 
 /* Playes Part css */
@@ -82,6 +84,7 @@ a {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+ 
 }
 
 
@@ -90,8 +93,9 @@ a {
 
 }
 
-.player {
-    width: 312px;;
+.player img{
+    width: 100%;
+   
 }
 
 .player p {
@@ -102,6 +106,7 @@ border-radius: 5px;
 border: 1px solid #161616;
 width: 100px;
 text-align: center;
+margin-top: 20px;
 
 }
 .player h3 {
@@ -114,3 +119,37 @@ text-align: center;
 }
 
 
+
+/* Footer Part css */
+
+footer {
+    background: #161616;
+    text-align: center;
+    padding: 50px;
+    margin-top: 30px;
+}
+
+footer h2 {
+font-weight: 500;
+font-size: 40px;
+line-height: 60px;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 20px;
+
+}
+
+footer a {
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.social-media {
+    color: #ffffff;
+    margin: 20px;
+}
+
+
+.social-media i {
+    margin-right: 20px;
+}

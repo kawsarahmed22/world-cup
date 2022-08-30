@@ -1,0 +1,58 @@
+@media screen and (max-width : 992px) and (min-width : 576px){
+
+    .players {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.players-part {
+    flex-direction: column;
+    padding: 0 50px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.sidebar {
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    flex-direction: row;
+    margin-right: 0px;
+}
+
+
+.sidebar a {
+    
+    margin-right: 20px;
+
+}
+}
+
+
+@media screen and (max-width : 575px){
+
+    .players {
+    grid-template-columns: repeat(1, 1fr);
+}
+.sidebar {
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    flex-direction: row;
+    margin-right: 0px;
+}
+
+
+.sidebar a {
+    
+    margin-right: 20px;
+
+}
+
+.players-part {
+    flex-direction: column;
+    padding: 0 50px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+}
